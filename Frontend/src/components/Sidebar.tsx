@@ -15,7 +15,7 @@ const Sidebar: React.FC = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("authToken"); 
-    navigate("/loginpage");
+    navigate("/");
   };
 
   return (

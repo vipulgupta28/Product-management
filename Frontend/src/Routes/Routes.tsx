@@ -12,7 +12,7 @@ const AppRoutes:React.FC = () =>{
         <>
             <Routes>
                 <Route path="signuppage" element={<SignupPage/>}/>
-                <Route path="loginpage" element={<LoginPage/>}/>
+                <Route path="/" element={<LoginPage/>}/>
                 <Route path="homepage" element={<HomePage/>}/>
                 <Route path="myproductspage" element={<MyProductsPage/>}/>
                 <Route path="allproductspage" element={<AllProductsPage/>}/>

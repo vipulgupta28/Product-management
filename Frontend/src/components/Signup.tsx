@@ -76,7 +76,7 @@ const Signup: React.FC = () => {
         email,
         password,
       });
-      navigate("/loginpage");
+      navigate("/");
     } catch (error) {
       console.error(error);
       setError("Error during registration. Please try again.");

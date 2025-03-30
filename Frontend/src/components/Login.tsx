@@ -16,7 +16,7 @@ const Login: React.FC = () => {
   const showPassword = () => setShowPass(!showPass);
 
   const onClickSignUp = () => navigate("/SignupPage");
-  const onClickForgotPassword = () => navigate("/OTPgatewayPage");
+ 
 
   const onClickLogin = async () => {
     try {
@@ -111,11 +111,7 @@ const Login: React.FC = () => {
                 {showPass ? <FiEyeOff /> : <FiEye />}
               </button>
             </div>
-            <div className="flex justify-end">
-              <button onClick={onClickForgotPassword} className="text-sm text-black hover:underline">
-                Forgot Password
-              </button>
-            </div>
+          
           </div>
         </motion.div>
 

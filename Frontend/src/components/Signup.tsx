@@ -167,7 +167,7 @@ const Signup: React.FC = () => {
           <motion.div variants={itemVariants} className="text-center">
             <p className="text-gray-500 mb-2">Already have an account?</p>
             <button 
-              onClick={() => navigate("/loginpage")} 
+              onClick={() => navigate("/")} 
               className="w-full p-3 bg-black text-white border border-black rounded-lg hover:bg-gray-800"
             >
               Login
